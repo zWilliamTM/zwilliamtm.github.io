@@ -5,7 +5,6 @@
 .background {
   display: flex;
   flex: 1;
-  height: 100vh;
   background-color: #aaa;
   justify-content: center;
   align-items: center;
