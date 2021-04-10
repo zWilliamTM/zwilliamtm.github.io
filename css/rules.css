@@ -1,3 +1,42 @@
 .deeper {
   padding: 1em;
 }
+
+.background {
+  display: flex;
+  flex: 1;
+  height: 100vh;
+  background-color: #aaa;
+  justify-content: center;
+  align-items: center;
+}
+
+.panel {
+  flex: 1;
+  background-color: #eee;
+  border-radius: 1em;
+}
+
+/* Atomos */
+.title {
+  flex: 1;
+  border-bottom: 1px dotted black;
+  background-color: #aaa;
+  color: #222;
+  padding: 0 1em;
+}
+
+.t-sub {
+  color: #333;
+}
+
+.table {
+  margin-left: 2%;
+  border-collapse: collapse;
+}
+
+.table td, th {
+  padding: 0.3em;
+  border: 1px solid #ddd;
+  text-align: justify;
+}
